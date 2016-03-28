@@ -1,17 +1,13 @@
 package mata.difficultylocker.util;
 
-import com.sun.prism.shader.Texture_Color_Loader;
-import cpw.mods.fml.client.config.GuiConfigEntries;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.util.ChatComponentText;
 import net.minecraft.util.StatCollector;
 import net.minecraft.world.EnumDifficulty;
-import scala.Char;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
 /**
  * Created by Matt on 3/27/2016.

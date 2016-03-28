@@ -2,17 +2,12 @@ package mata.difficultylocker.handler;
 
 import com.google.common.collect.Maps;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
 import mata.difficultylocker.DifficultyLocker;
 import mata.difficultylocker.util.LogHelper;
 import mata.difficultylocker.util.MessageHelper;
-import mata.difficultylocker.util.WorldConfig;
 import net.minecraft.client.Minecraft;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.server.MinecraftServer;
-import net.minecraft.util.ChatComponentText;
-import net.minecraft.util.ChatComponentTranslation;
 import net.minecraft.util.StatCollector;
 import net.minecraft.world.EnumDifficulty;
 import net.minecraftforge.common.DimensionManager;
@@ -36,7 +31,7 @@ public class WorldEventHandler {
 
 
         if (event.entity instanceof EntityPlayer) {
-            
+
             if (DimensionManager.getCurrentSaveRootDirectory() != null) {
                 if (DifficultyLocker.config.getConfig().hasCategory("worlds") && DifficultyLocker.config.getConfig().hasKey("worlds", DimensionManager.getCurrentSaveRootDirectory().getName())) {
                     LogHelper.info(StatCollector.translateToLocal("log.old_config_detected"));

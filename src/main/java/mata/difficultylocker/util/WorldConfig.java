@@ -1,9 +1,7 @@
 package mata.difficultylocker.util;
 
-import net.minecraft.client.Minecraft;
 import net.minecraft.util.StatCollector;
 import net.minecraft.world.EnumDifficulty;
-import net.minecraftforge.common.DimensionManager;
 
 import java.io.*;
 

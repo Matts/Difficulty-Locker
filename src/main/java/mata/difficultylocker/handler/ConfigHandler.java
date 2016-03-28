@@ -1,6 +1,5 @@
 package mata.difficultylocker.handler;
 
-import mata.difficultylocker.DifficultyLocker;
 import net.minecraftforge.common.config.Configuration;
 
 import java.io.File;
