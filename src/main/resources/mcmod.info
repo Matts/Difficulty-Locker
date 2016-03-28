@@ -1,0 +1,16 @@
+[
+{
+  "modid": "difficultylocker",
+  "name": "Difficulty Locker",
+  "description": "Difficulty Locker allows you to lock the difficulty of multiple worlds separably in versions pre 1.8 where this functionality has been built into vanilla",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "http://www.curse.com/mc-mods/minecraft/242319-difficulty-locker",
+  "updateUrl": "http://www.curse.com/mc-mods/minecraft/242319-difficulty-locker",
+  "authorList": ["Matthew Smeets"],
+  "credits": "Thanks to Sky (@Eddward_R) for giving me this idea to build a concept on.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
